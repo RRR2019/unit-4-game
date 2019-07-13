@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 5em;
+
+}
+#magic{
+    text-align: center;
+
+}
+#diamond, #gem, #emerald, #ruby {
+    width: 200px;
+    height: auto;
+}

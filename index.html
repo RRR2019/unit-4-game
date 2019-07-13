@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JEWEL GAME</title>
+    <!--Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--JQUERY-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title pt-2">CRYSTAL COLLECTOR!</h1>
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 id="magic">Magic Number</h2>
+                        <h2 id="randomNum"></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 id="wins">Wins:</h3>
+                        <h3 id="losses">Losses:</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row justify-content-center mt-2">
+            <div class="d-inline-flex">
+                <img id="diamond" src="assets/images/diamond.gif" alt="Diamond" class="img-thumbnail m-2">
+                <img id="emerald" src="assets/images/emerald.gif" alt="Emerald" class="img-thumbnail m-2">
+                <img id="gem" src="assets/images/gem.gif" alt="Gem" class="img-thumbnail m-2">
+                <img id="ruby" src="assets/images/ruby.gif" alt="Ruby" class="img-thumbnail m-2">
+            </div>
+        </div>
+        <div class="row justify-content-center mt-2">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 id="playscore">PLAYER SCORE:</h3>
+                        <h3 id="score"></h3>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
