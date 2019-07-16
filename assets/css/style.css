@@ -12,3 +12,8 @@
     width: 200px;
     height: auto;
 }
+
+#playscore, #score, #randomNum {
+    text-align: center;
+}
+
