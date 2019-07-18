@@ -40,7 +40,7 @@ function checkValues(check){
             $("#wins").html(newWin);
             reset();
         }
-        if(check>randomNumber){
+        else if(check>randomNumber){
             console.log("im inside the lost if")
             alert("you lost")      
             losts++;
